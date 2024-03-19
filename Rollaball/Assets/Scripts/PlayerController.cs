@@ -123,13 +123,13 @@ public class PlayerController : MonoBehaviour
         if (countText != null)
         {
             RectTransform countTextRectTransform = countText.GetComponent<RectTransform>();
-            countTextRectTransform.anchoredPosition = new Vector2(310, -150);
+            countTextRectTransform.anchoredPosition = new Vector2(280, -150);
         }
 
         if (timerText != null)
         {
             RectTransform timerTextRectTransform = timerText.GetComponent<RectTransform>();
-            timerTextRectTransform.anchoredPosition = new Vector2(463, -220);
+            timerTextRectTransform.anchoredPosition = new Vector2(430, -220);
         }
 
         // Display the end game panel
